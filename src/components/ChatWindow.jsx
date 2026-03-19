@@ -37,7 +37,7 @@ export default function ChatWindow({ chat, onSendMessage }) {
   };
 
   return (
-    <section className="flex h-full flex-1 flex-col bg-[#efeae2] bg-[url('https://www.transparenttextures.com/patterns/45-degree-fabric-light.png')]">
+    <section className="flex h-full flex-1 flex-col bg-[#efeae2] bg-[radial-gradient(circle_at_center,_rgba(255,255,255,0.35)_1px,_transparent_1px)] [background-size:24px_24px]">
       <header className="flex items-center justify-between bg-[#f0f2f5] px-4 py-3 shadow-sm">
         <div className="flex items-center gap-3">
           <Avatar name={chat.name} color={chat.avatarColor} />
